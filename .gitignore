@@ -1,0 +1,6 @@
+build/
+dist/
+deploy/
+nbproject/private
+*.class
+
