@@ -496,6 +496,7 @@ public class TimeLoggerJavaUI implements Observer
                 if (myModel.getCurrentFile().startsWith("Untitled"))
                 {
                     showSaveDialog();
+                    updateWindowTitle();
                 }
                 else
                 {
@@ -1330,7 +1331,7 @@ public class TimeLoggerJavaUI implements Observer
             for (int i = 0; i < 9; i++)
             {
                 text[i] = new JTextField();
-                text[i].setPreferredSize(new Dimension(120, 18));
+                text[i].setPreferredSize(new Dimension(120, 28));
             }
 
 

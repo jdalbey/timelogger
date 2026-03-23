@@ -66,6 +66,7 @@
         </zip>
 
         <delete file="${deploy.dir}/temp_final.jar"/>
+        <chmod file="${deploy.jar}" perm="755"/>
 
     </target>
     <!--
